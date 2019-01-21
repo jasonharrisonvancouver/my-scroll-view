@@ -21,7 +21,7 @@
     
     CGPoint translationInThisView = [sender translationInView:sender.view];
     // add the above, to the center of the view
-    CGPoint oldCenter = sender.view.center;
+  //  CGPoint oldCenter = sender.view.center;
 
  //   CGPoint newCenter = CGPointMake(oldCenter.x + translationInThisView.x,
  //                                   oldCenter.y + translationInThisView.y);
@@ -29,10 +29,15 @@
     // reset to zero
 //    [sender setTranslation:CGPointZero inView:self.view];
     
+    ;
     
     
-    self.containerView.bounds = CGRectMake(oldCenter.x - translationInThisView.x, oldCenter.y - translationInThisView.y, self.containerView.bounds.size.width, self.containerView.bounds.size.height);
+    self.containerView.bounds = CGRectMake( self.containerView.bounds.origin.x - translationInThisView.x, self.containerView.bounds.origin.y - translationInThisView.y, self.containerView.bounds.size.width, self.containerView.bounds.size.height);
 
+    
+    
+    
+   // [sender setTranslation:CGPointZero inView:self.view];
     
     
     NSLog(@"moved x amount:%f and y amount:%f", translationInThisView.x, translationInThisView.y);
