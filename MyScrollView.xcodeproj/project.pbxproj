@@ -15,6 +15,7 @@
 		9F54EFE321F652FE0025D78A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F54EFE221F652FE0025D78A /* main.m */; };
 		9F54EFED21F652FE0025D78A /* MyScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F54EFEC21F652FE0025D78A /* MyScrollViewTests.m */; };
 		9F54EFF821F652FE0025D78A /* MyScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F54EFF721F652FE0025D78A /* MyScrollViewUITests.m */; };
+		9F54F00721F662030025D78A /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F54F00621F662030025D78A /* MyScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9F54EFF321F652FE0025D78A /* MyScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F54EFF721F652FE0025D78A /* MyScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScrollViewUITests.m; sourceTree = "<group>"; };
 		9F54EFF921F652FE0025D78A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F54F00521F662030025D78A /* MyScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
+		9F54F00621F662030025D78A /* MyScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				9F54EFD621F652FD0025D78A /* MyViewController.h */,
 				9F54EFD721F652FD0025D78A /* MyViewController.m */,
 				9F54EFD921F652FD0025D78A /* Main.storyboard */,
+				9F54F00521F662030025D78A /* MyScrollView.h */,
+				9F54F00621F662030025D78A /* MyScrollView.m */,
 				9F54EFDC21F652FE0025D78A /* Assets.xcassets */,
 				9F54EFDE21F652FE0025D78A /* LaunchScreen.storyboard */,
 				9F54EFE121F652FE0025D78A /* Info.plist */,
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F54F00721F662030025D78A /* MyScrollView.m in Sources */,
 				9F54EFD821F652FD0025D78A /* MyViewController.m in Sources */,
 				9F54EFE321F652FE0025D78A /* main.m in Sources */,
 				9F54EFD521F652FD0025D78A /* AppDelegate.m in Sources */,
