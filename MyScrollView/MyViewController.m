@@ -6,13 +6,13 @@
 //  Copyright © 2019 jason harrison. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MyViewController.h"
 
-@interface ViewController ()
+@interface MyViewController ()
 
 @end
 
-@implementation ViewController
+@implementation MyViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
